@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <as-main/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import asMain from "./components/as-main.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    asMain
   }
 }
 </script>
@@ -22,5 +21,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d1226;
 }
 </style>
